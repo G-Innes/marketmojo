@@ -13,16 +13,16 @@ export function Header() {
           <Link to="/" className="flex items-center gap-2">
             {/* Logo SVG */}
             <svg width="32" height="32" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg" className="shrink-0">
-              {/* First M with gradient from accent-primary to accent-secondary */}
-              <path d="M30 140 L55 60 L75 90 L95 60 L120 140" 
+              {/* S with gradient from accent-primary to accent-secondary */}
+              <path d="M40 70 C40 40, 110 40, 110 70 C110 100, 40 100, 40 130 C40 160, 110 160, 110 130" 
                     fill="none" 
                     stroke="url(#gradient1)" 
                     stroke-width="12" 
                     stroke-linecap="round" 
                     stroke-linejoin="round" />
               
-              {/* Second M with gradient from accent-secondary to accent-tertiary, slightly offset */}
-              <path d="M60 150 L85 70 L105 100 L125 70 L150 150" 
+              {/* T with gradient from accent-secondary to accent-tertiary, slightly offset */}
+              <path d="M90 60 L170 60 M130 60 L130 150" 
                     fill="none" 
                     stroke="url(#gradient2)" 
                     stroke-width="12" 
@@ -42,7 +42,7 @@ export function Header() {
                 </linearGradient>
               </defs>
             </svg>
-            <span className="gradient-text text-xl font-bold">MarketMojo</span>
+            <span className="gradient-text text-xl font-bold">Stat Tracker</span>
           </Link>
         </div>
         <nav className="hidden md:flex items-center gap-6">

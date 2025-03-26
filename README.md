@@ -1,4 +1,4 @@
-# MarketMojo - Trading Journal & Analytics Platform
+# Stat Tracker - Trading Journal & Analytics Platform
 
 A comprehensive trading assistant and journal application built with React, TypeScript, and Vite, designed to help traders implement the Smash & Grab trading strategy effectively. The platform focuses on providing a modern, intuitive interface with powerful trading analysis tools.
 
@@ -8,7 +8,7 @@ A comprehensive trading assistant and journal application built with React, Type
 - Modern UI implementation
   - ✅ Dark theme with glassmorphism design
   - ✅ Responsive bento box dashboard layout
-  - ✅ Custom gradient MM logo branding
+  - ✅ Custom gradient ST logo branding
   - ✅ Glassmorphism card components
   - ✅ Gradient text and accent colors
 - Core Structure
@@ -134,8 +134,8 @@ src/
 
 1. Clone the repository
 ```bash
-git clone https://github.com/yourusername/marketmojo.git
-cd marketmojo
+git clone https://github.com/yourusername/stat-tracker.git
+cd stat-tracker
 ```
 
 2. Install dependencies

@@ -1,4 +1,4 @@
-# MarketMojo - Phase 2 Development Plan
+# Stat Tracker - Phase 2 Development Plan
 
 ## Overview
 
@@ -65,7 +65,7 @@ Phase 2 focuses on building the backend infrastructure using Express, Prisma, an
 
 2. Configure Neon PostgreSQL connection in .env
    ```
-   DATABASE_URL="postgresql://username:password@your-neon-host:5432/marketmojo?schema=public"
+   DATABASE_URL="postgresql://username:password@your-neon-host:5432/stat-tracker?schema=public"
    ```
 
 3. Create Prisma schema based on development plan
